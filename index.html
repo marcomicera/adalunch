@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+
+<body>
+    <script>
+        const RESTAURANTS = [
+            {
+                name: "Eden",
+                link: "https://g.page/eden19?share"
+            },
+            {
+                name: "REWE (salad)",
+                link: "https://goo.gl/maps/jsVH98HjVaLhEpXL8"
+            },
+            {
+                name: "Subway",
+                link: "https://goo.gl/maps/SWxhj4bRbJobQ2ZL9"
+            },
+            {
+                name: "Dolores",
+                link: "https://g.page/DoloresMitte?share"
+            },
+            {
+                name: "Com Viet",
+                link: "https://goo.gl/maps/5tAeTxxU4WuE555h6"
+            }
+        ];
+        const SELECTED_RESTAURANT = RESTAURANTS[Math.floor(Math.random() * RESTAURANTS.length)];
+        document.write(
+            "Today you'll be having lunch at <a href=\"" +
+            SELECTED_RESTAURANT.link +
+            "\">" +
+            SELECTED_RESTAURANT.name +
+            "</a>."
+        );
+    </script>
+</body>
+
+</html>
