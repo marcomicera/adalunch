@@ -1,3 +1,3 @@
 # Hungry?
 
-Let [pages.github.ada.com/marco-micera/lunch](https://pages.github.ada.com/marco-micera/lunch) decide where you're having lunch at.
+Let [marcomicera.github.io/adalunch](https://marcomicera.github.io/adalunch) decide where you're having lunch at.
